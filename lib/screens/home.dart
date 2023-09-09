@@ -90,7 +90,9 @@ class _HomeState extends State<Home> {
                         elevation: 10),
                     child: const Text(
                       '+',
-                      style: TextStyle(fontSize: 40),
+                      style: TextStyle(
+                        fontSize: 40,
+                      ),
                     ),
                   ),
                 )
